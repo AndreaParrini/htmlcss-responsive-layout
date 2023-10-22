@@ -26,10 +26,77 @@
     background-color: rgba(0, 0, 255, 0.604);
 }
 
+.debug .section_demo{
+    padding: 20px 0;
+}
+
+.debug .col-8{
+    height: 200px;
+    background-color: chocolate;
+    border: 2px dashed black;
+}
+
+.debug .col-4{
+    height: 200px;
+    background-color: chocolate;
+    border: 2px dashed black;
+}
+
+.debug .section_strategic_planning{
+    padding: 20px 0;
+    background-color: bisque;
+}
+
+.debug .col-6{
+    height: 400px;
+    background-color: rgb(210, 30, 201);
+    border: 2px dashed black;
+}
+
+.debug .section_testimonials{
+    padding: 20px 0;
+}
+
+.debug .col-12{
+    height: 100px;
+    background-color: chocolate;
+    border: 2px dashed black;
+}
+
+.debug .section_benefits{
+    padding: 20px 0;
+    background-color: bisque;
+}
+
+.debug .section_benefits .col-4{
+    height: 200px;
+    background-color: rgb(210, 30, 201);
+    border: 2px dashed black;
+}
+
+.debug .section_about_us{
+    padding: 20px 0;
+}
+
+.debug .section_about_us .col-6{
+    background-color: chocolate;
+}
+
+.debug .section_get_started{
+    padding: 20px 0;
+    background-color: bisque;
+}
+
+.debug #site_main .section_get_started .container{
+    height: 200px;
+    background-color: rgb(210, 30, 201);
+}
+
 /* UTILITY */
 
 .container{
     width: 70%;
+    max-width: 1152px;
     margin: auto;
 }
 
@@ -39,4 +106,63 @@
 
 .space-between{
     justify-content: space-between;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+
+[class^="col-"]{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.col-4{
+    width: calc((100% / 12) * 4);
+}
+
+.col-6{
+    width: calc((100% / 12) * 6);
+}
+
+.col-8{
+    width: calc((100% / 12) * 8);
+}
+
+.col-12{
+    width: 100%;
+}
+
+/* HEADER */
+
+/* logo */
+
+/* menu */
+
+/* MAIN */
+
+/* section demo */
+
+/* section strategic planning */
+
+/* section testimonials */
+
+.section_testimonials h3,
+.section_testimonials h1,
+.section_testimonials h4{
+    text-align: center;
+}
+
+/* section benefits */
+
+.section_benefits h1{
+    text-align: center;
+}
+
+/* section get started */
+
+#site_main .section_get_started .container{
+    width: 40%;
 }
