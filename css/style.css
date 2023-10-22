@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* DEBUG */
+
+.debug #site_header{
+    height: 50px;
+    background-color: azure;
+}
+
+.debug .logo{
+    height: 30px;
+    margin: 10px 0;
+    width: 80px;
+    background-color: rgba(0, 0, 255, 0.604);
+}
+
+.debug .menu{
+    height: 30px;
+    margin: 10px 0;
+    width: 80px;
+    background-color: rgba(0, 0, 255, 0.604);
+}
+
+/* UTILITY */
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
