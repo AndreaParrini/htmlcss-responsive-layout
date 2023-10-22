@@ -92,6 +92,18 @@
     background-color: rgb(210, 30, 201);
 }
 
+.debug #site_footer{
+    background-color: khaki;
+    height: 80px;
+    padding: 5px 0;
+}
+
+.debug #site_footer .container{
+    background-color: rebeccapurple;
+    height: 70px;
+}
+
+
 /* UTILITY */
 
 .container{
@@ -166,3 +178,10 @@
 #site_main .section_get_started .container{
     width: 40%;
 }
+
+/* FOOTER */
+
+#site_footer .container{
+    width: 40%;
+}
+
