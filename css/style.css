@@ -30,7 +30,7 @@
     padding: 20px 0;
 }
 
-.debug .sl-col-12{
+.debug .col-sl-12{
     height: 200px;
     background-color: chocolate;
     border: 2px dashed black;
@@ -99,12 +99,12 @@
     margin: 0 -1rem;
 }
 
-[class*="col-"]{
+[class^="col-"]{
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
-.sl-col-12{
+.col-sl-12{
     width: 100%;
 }
 
@@ -148,15 +148,15 @@
 /* TABLET */
 
 @media screen and (min-width: 768px){
-    .md-col-8{
+    .col-md-8{
         width: calc((100% / 12) * 8);
     }
 
-    .md-col-4{
+    .col-md-4{
         width: calc((100% / 12) * 4);
     }
 
-    .md-col-6{
+    .col-md-6{
         width: calc((100% / 12) * 6);
     }
 
@@ -169,11 +169,11 @@
 /* DESKTOP */
 
 @media screen and (min-width: 1160px) {
-    .lg-col-6{
+    .col-lg-6{
         width: calc((100% / 12)* 6);
     }
 
-    .lg-col-4{
+    .col-lg-4{
         width: calc((100% / 12)* 4);
     }
 
