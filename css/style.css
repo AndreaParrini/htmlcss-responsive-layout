@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/* DEBUG */
+/* #region DEBUG */
 
 .debug #site_header{
     height: 50px;
@@ -75,9 +75,9 @@
     background-color: rebeccapurple;
     height: 70px;
 }
+/* #endregion DEBUG */
 
-
-/* UTILITY */
+/* #region UTILITY */
 
 .container{
     width: 90%;
@@ -107,14 +107,17 @@
 .col-12{
     width: 100%;
 }
+/* #endregion UTILITY */
 
-/* HEADER */
+/* #region HEADER */
 
 /* logo */
 
 /* menu */
 
-/* MAIN */
+/* #endregion HEADER */
+
+/* #region MAIN */
 
 /* section demo */
 
@@ -136,8 +139,11 @@
 
 /* section get started */
 
+/* #endregion MAIN */
 
-/* FOOTER */
+/* #region FOOTER */
+
+/* #endregion FOOTER */
 
 
 
@@ -145,7 +151,7 @@
         LAYOUT RESPONSIVE
 **********************************/
 
-/* TABLET */
+/* #region TABLET */
 
 @media screen and (min-width: 768px){
     .col-md-4{
@@ -166,8 +172,9 @@
         width: 60%;
     }
 }
+/* #endregion TABLET */
 
-/* DESKTOP */
+/* #region DESKTOP */
 
 @media screen and (min-width: 1160px) {
     .col-lg-4{
@@ -183,3 +190,4 @@
         width: 40%;
     }
 }
+/* #endregion DESKTOP */
