@@ -102,7 +102,7 @@ img{
 /* #region UTILITY */
 
 .container{
-    width: 90%;
+    width: 80%;
     max-width: 1152px;
     margin: auto;
 }
@@ -172,6 +172,10 @@ img{
     background-color: var(--res-card);
 }
 
+.card-white{
+    background-color: var(--res-light);
+}
+
 .text-align-center{
     text-align: center;
 }
@@ -222,7 +226,7 @@ img{
 
     & h4{
         color: var(--res-secondary);
-        margin: 1rem 0;
+        margin: 1.5rem 0;
     }
 
     & img{
@@ -232,6 +236,7 @@ img{
 }
 
 .demo_app .btn{
+    margin-top: 1.5rem;
     margin-bottom: 3rem;
 }
 
@@ -250,6 +255,58 @@ img{
 /* #endregion section_demo */
 
 /* section strategic planning */
+
+.section_strategic_planning{
+    background-color: var(--res-primary);
+    padding-bottom: 3rem;
+    padding-top: 5rem;
+    color: var(--res-light);
+}
+
+.planning{
+    padding: 2rem;
+}
+
+.planning h2{
+    margin-top: 7rem;
+}
+
+.planning p{
+    line-height: 150%;
+    margin-top: 3.5rem;
+}
+
+.app_developement{
+    height: 100%;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    margin-top: 1rem;
+    background-color: var(--res-light);
+    color: var(--res-dark);
+
+    & h4{
+        margin: 1rem 0;
+        font-weight: bolder;
+    }
+
+    & p{
+        font-style: italic;
+        line-height: 150%;
+    }
+
+    & a{
+        display: inline-block;
+        width: 50px;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        background-color: var(--res-primary);
+        color: var(--res-dark);
+        vertical-align: middle;
+        line-height: 50px;
+        margin-top: 2rem;
+    }
+}
+
 
 /* section testimonials */
 
@@ -319,6 +376,10 @@ img{
 
     .menu_mobile{
         display: none;
+    }
+
+    .section_strategic_planning .container{
+        width: 60%;
     }
 
     .section_get_started .container,
