@@ -543,7 +543,21 @@ img{
 
 /* #region FOOTER */
 
+#site_footer{
+    background-color: var(--res-footer);
+    color: var(--res-light);
+    padding: 2rem 0;
+    text-align: center;
+    font-size: small;
 
+    & p{
+        margin-bottom: 3rem;
+    }
+
+    & a{
+        color: var(--res-primary);
+    }
+}
 
 /* #endregion FOOTER */
 
