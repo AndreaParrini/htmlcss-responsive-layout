@@ -368,10 +368,12 @@ img{
 .testimonial{
     padding: 1.25rem;
     color: var(--res-light);
+    border-radius: 3rem;
 
     & p{
         color: var(--res-light);
-        font-size: small;
+        font-size: medium;
+        line-height: 200%;
     }
 
     & h4{
@@ -384,13 +386,14 @@ img{
 }
 
 .avatar{
-    width: 130px;
-    height: 130px;
+    width: 200px;
+    height: 200px;
     flex-shrink: 0;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 0.5rem;
 }
+
 
 /* #endregion section testimonial */
 
@@ -465,20 +468,12 @@ img{
     color: var(--res-primary);
 }
 
-.avatar_about_us{
-    height: 200px;
-    width: 200px;
-}
 
-.avatar_about_us img{
+.avatar img{
     height: 200px;
     width: 200px;
     border-radius: 50%;
 }
-
-/* .container_avatar{
-    display: flex;
-} */
 
 /* #endregion section about us */
 
@@ -547,6 +542,8 @@ img{
 /* #endregion MAIN */
 
 /* #region FOOTER */
+
+
 
 /* #endregion FOOTER */
 
