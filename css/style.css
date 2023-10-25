@@ -139,6 +139,10 @@ img{
     justify-content: space-between;
 }
 
+.justify-content-center{
+    justify-content: center;
+}
+
 .align-items-center{
     align-items: center;
 }
@@ -196,6 +200,14 @@ img{
 
 .text-align-center{
     text-align: center;
+}
+
+.p_rel{
+    position: relative;
+}
+
+.pl-8{
+    padding-left: 2rem;
 }
 
 /* #endregion UTILITY */
@@ -420,6 +432,56 @@ img{
 
 /* #endregion section benefits */
 
+/* #region section about us */
+
+.section_about_us{
+    padding: 2rem 0;
+
+    & h1{
+        color: var(--res-primary);
+        margin: 1rem 0;
+        font-size: 45px;
+    }
+
+    & p{
+        margin: 2rem 0;
+        line-height: 200%;
+    }
+
+    & h2{
+        color: var(--res-primary);
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        line-height: 150%;
+    }
+
+}
+
+.section_about_us .p_rel i{
+    position: absolute;
+    top: 0;
+    left: 150px;
+    font-size: 70px;
+    color: var(--res-primary);
+}
+
+.avatar_about_us{
+    height: 200px;
+    width: 200px;
+}
+
+.avatar_about_us img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+/* .container_avatar{
+    display: flex;
+} */
+
+/* #endregion section about us */
+
 /* section get started */
 
 /* #endregion MAIN */
@@ -460,6 +522,20 @@ img{
         font-size: 80px;
     }
 
+    .section_about_us .container_avatar{
+        justify-content: center;
+    }
+
+    .container_avatar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & h2{
+            text-align: center;
+        }
+    }
+
     .section_get_started .container,
     #site_footer .container{
         width: 60%;
@@ -476,6 +552,10 @@ img{
     
     .col-lg-6{
         width: calc((100% / 12)* 6);
+    }
+
+    .col-lg-8{
+        width: calc((100% / 12)* 8);
     }
 
     .menu_desktop{
