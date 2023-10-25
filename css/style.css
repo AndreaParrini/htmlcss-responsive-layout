@@ -1,3 +1,11 @@
+/* #region FONT */
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* #endregion FONT */
+
 /* #region RESET */
 
 *
@@ -176,6 +184,10 @@ img{
     background-color: var(--res-light);
 }
 
+.card-viola{
+    background-color: var(--res-primary);
+}
+
 .text-align-center{
     text-align: center;
 }
@@ -310,10 +322,56 @@ img{
 
 /* section testimonials */
 
-.section_testimonials h3,
-.section_testimonials h1,
-.section_testimonials h4{
-    text-align: center;
+.section_testimonials {
+    padding: 2rem 0;
+
+    & h5{
+        text-transform: uppercase;
+        color: var(--res-footer);
+        margin-bottom: 1rem;
+        font-size: small;
+        font-weight: lighter;
+    }
+
+    & h1{
+        color: var(--res-primary);
+        margin-bottom: 1rem;
+        font-size: 30px;
+    }
+
+    & p{
+        color: var(--res-footer);
+        margin-bottom: 1rem;
+        font-size: 15px;
+    }
+}
+
+.testimonial{
+    padding: 1.25rem;
+    color: var(--res-light);
+
+    & p{
+        color: var(--res-light);
+        font-size: small;
+    }
+
+    & h4{
+        text-transform: uppercase;
+    }
+
+    & .fa-solid{
+        font-size: 18px;
+    }
+}
+
+.avatar{
+    background-color: blue;
+    width: 130px;
+    height: 130px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
 }
 
 /* section benefits */
@@ -351,6 +409,12 @@ img{
         width: calc((100% / 12) * 8);
     }
 
+    .testimonial{
+        display: flex;
+        align-items: center;
+        text-align: left;
+        gap: 1rem;
+    }
 
     .section_get_started .container,
     #site_footer .container{
