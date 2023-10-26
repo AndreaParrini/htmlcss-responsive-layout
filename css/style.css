@@ -299,6 +299,7 @@ img{
 
 .planning h2{
     margin-top: 7rem;
+    font-size: 25px;
 }
 
 .planning p{
@@ -468,6 +469,9 @@ img{
     color: var(--res-primary);
 }
 
+.container_avatar a{
+    padding: 0.5rem 1rem;
+}
 
 .avatar img{
     height: 200px;
@@ -582,6 +586,10 @@ img{
         width: calc((100% / 12) * 8);
     }
 
+    .planning h2 {
+        font-size: 35px;
+    }
+
     .testimonial{
         display: flex;
         align-items: center;
@@ -603,7 +611,7 @@ img{
         align-items: center;
 
         & h2{
-            text-align: center;
+            max-width: 200px;
         }
     }
 
@@ -639,6 +647,10 @@ img{
 
     .section_strategic_planning .container{
         width: 60%;
+    }
+
+    .planning h2 {
+        font-size: 25px;
     }
 
     .section_get_started .container,
